@@ -16,6 +16,10 @@ sudo apt-get install portaudio19-dev python-all-dev -y
 sudo apt-get update
 sudo apt-get install ffmpeg -y
 ```
+```bash
+sudo apt-get install alsa-utils -y
+sudo modprobe snd-dummy
+```
 
 ---
 
@@ -91,7 +95,9 @@ Screen oturumu açıldıktan sonra:
 ```bash
 cd ~/OM1
 source .venv/bin/activate
-uv run src/run.py spot
+```
+```bash
+uv run src/run.py conversation
 ```
 
 Artık agent terminalde çalışmaya başlayacak.
