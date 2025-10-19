@@ -125,7 +125,7 @@ screen -r openmind
 ```bash
 cd ~/OM1
 source .venv/bin/activate
-uv run src/run.py spot
+uv run src/run.py conversation
 ```
 
 ---
