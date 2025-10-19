@@ -109,13 +109,13 @@ uv run src/run.py spot
 
 ## ⚠️ Sık Görülen Hatalar ve Çözümler:
 
-| Hata                           | Sebep                            | Çözüm                                                                                                |     |
-| ------------------------------ | -------------------------------- | ---------------------------------------------------------------------------------------------------- | --- |
-| `uv: command not found`        | uv kurulu değil                  | `pip install uv` komutunu çalıştır.                                                                  | sh` |
-| `.venv/bin/activate not found` | sanal ortam oluşturulmamış       | `uv venv` komutunu tekrar çalıştır.                                                                  |     |
-| `401 Unauthorized`             | OpenMind bakiyesi yetersiz       | [https://portal.openmind.org](https://portal.openmind.org) adresine girip kredi ekle.                |     |
-| `portaudio not found`          | ses modülü eksik                 | `sudo apt install portaudio19-dev -y`      komutunu çalıştır.                                        |     |
-| `ERROR: No output from LLM`    | API key hatalı veya kredi bitmiş | `.env` dosyasındaki key’i kontrol et veya yenisini oluştur                                           |     |
+| Hata                           | Sebep                            | Çözüm                                                                                                |
+| ------------------------------ | -------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `uv: command not found`        | uv kurulu değil                  | `pip install uv` komutunu çalıştır.                                                                  |
+| `.venv/bin/activate not found` | sanal ortam oluşturulmamış       | `uv venv` komutunu tekrar çalıştır.                                                                  |
+| `401 Unauthorized`             | OpenMind bakiyesi yetersiz       | [https://portal.openmind.org](https://portal.openmind.org) adresine girip kredi ekle.                |
+| `portaudio not found`          | ses modülü eksik                 | `sudo apt install portaudio19-dev -y`      komutunu çalıştır.                                        |
+| `ERROR: No output from LLM`    | API key hatalı veya kredi bitmiş | `.env` dosyasındaki key’i kontrol et veya yenisini oluştur                                           |
 
 ---
 
