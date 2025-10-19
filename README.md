@@ -1,20 +1,12 @@
+![G20VrWxakAAGoEL](https://github.com/user-attachments/assets/a492888f-10f8-4af9-9b24-5fced20d5ba3)
+
 # Deploy Your First Robot on OpenMind Fabric Portal (Linux)
 
 Bu rehberde, Linux üzerinde OM1 agent kurulumunu adım adım öğrenip kurulum yapabileceksiniz..
 
 ---
 
-## 1- UV Kurulumu:
-
-```bash
-wget https://astral.sh/uv/install.sh
-chmod +x install.sh
-./install.sh
-```
-
----
-
-## 2- Gerekli Sistem Paketlerinin Kurulumu:
+## 1- Gerekli Paketlerin Kurulumu:
 
 ```bash
 sudo apt-get update
@@ -23,6 +15,16 @@ sudo apt-get install portaudio19-dev python-all-dev -y
 ```bash
 sudo apt-get update
 sudo apt-get install ffmpeg -y
+```
+
+---
+
+## 2- UV Kurulumu:
+
+```bash
+wget https://astral.sh/uv/install.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ---
@@ -49,7 +51,20 @@ source .venv/bin/activate
 
 ---
 
-## 5- API Anahtarını Ekle (.env):
+
+## 5- API Key Al
+
+- [**OpenMind Fabric Portal**](https://fabric.openmindnetwork.xyz) bağlantısına git.
+- OpenMind’e kayıt ol veya hesabın varsa giriş yap.
+- Sağ üstteki menüden “Purchase Credits” kısmına tıkla ve Base ağı üzerinden 5 USDC bakiye ekle.
+- Ardından “Create API Key” butonuna tıkla ve yeni bir API key oluştur.
+- Oluşan anahtarı kopyalamayı unutma, çünkü pencereyi kapattıktan sonra tekrar göremezsin.
+
+![1](https://github.com/user-attachments/assets/238fbf73-2bd8-432d-b324-9bdb992e6bbf)
+
+---
+
+## 6- API KEY Ekle (.env):
 
 ```bash
 cp env.example .env
@@ -100,6 +115,8 @@ Sunucu yeniden başlarsa veya node kapanırsa:
 
 ```bash
 screen -r openmind
+```
+```bash
 cd ~/OM1
 source .venv/bin/activate
 uv run src/run.py spot
