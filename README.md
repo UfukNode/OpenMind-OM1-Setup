@@ -140,6 +140,5 @@ uv run src/run.py conversation
 
 ### 💡 Ek İpuçları
 
-* OpenMind hesabı yeni açıldıysa **$5 deneme kredisi** gelir. Bu kredi bittiğinde agent çalışmaz.
 * “401 Insufficient Balance” hatası görürsen eğer, hesabına kredi ekle ve node’u yeniden başlat.
 * Node’u her zaman `screen` içinde çalıştır, böylece terminali kapatsan bile işlem arka planda devam eder.
