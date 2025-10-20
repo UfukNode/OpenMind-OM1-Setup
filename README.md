@@ -41,6 +41,9 @@ git submodule update --init
 uv venv
 ```
 
+### Örnek Çıktı:
+<img width="1677" height="300" alt="image" src="https://github.com/user-attachments/assets/8b9affeb-e2e0-4856-b1de-4f0e05b84ba0" />
+
 ---
 
 
@@ -67,6 +70,8 @@ nano .env
 - OpenMind üzerinden oluşturduğun kendi **API anahtarını** buraya ekle.
 - Kaydedip çık:
 > CTRL + X → Y → ENTER
+
+![Adsız tasarım](https://github.com/user-attachments/assets/bff474bf-e617-451e-ad2b-1888245cb5cf)
 
 ---
 
