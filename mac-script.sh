@@ -45,4 +45,4 @@ echo "--------------------------------"
 echo ""
 echo "✅ Node başlatılıyor..."
 sleep 2
-uv run src/run.py conversation
+uv run src/run.py spot
