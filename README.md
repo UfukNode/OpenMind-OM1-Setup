@@ -83,8 +83,6 @@ Arka planda kesintisiz çalışması için node’u `screen` içinde başlatıyo
 screen -S openmind
 ```
 
-Screen oturumu açıldıktan sonra:
-
 ```bash
 cd ~/OM1
 source .venv/bin/activate
@@ -93,14 +91,20 @@ source .venv/bin/activate
 uv run src/run.py conversation
 ```
 
+<img width="1679" height="497" alt="image" src="https://github.com/user-attachments/assets/c2318cbd-4292-44d8-88cd-b7e5f6549d87" />
+
 - Artık agent terminalde çalışmaya başlayacak.
 
-### Screen’den çıkmak için:
+---
+
+## 7- Screen Komutları:
+
+Screen’den çıkmak için:
 ```bash
 CTRL + A + D
 ```
 
-### Tekrar girmek için:
+Tekrar girmek için:
 ```bash
 screen -r openmind
 ```
