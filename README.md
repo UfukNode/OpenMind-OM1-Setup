@@ -93,15 +93,14 @@ source .venv/bin/activate
 uv run src/run.py conversation
 ```
 
-Artık agent terminalde çalışmaya başlayacak.
-Çalışırken [fabric.openmindnetwork.xyz → Teleops] sayfasına git.
+- Artık agent terminalde çalışmaya başlayacak.
 
-Screen’den çıkmak için:
+### Screen’den çıkmak için:
 ```bash
 CTRL + A + D
 ```
 
-Tekrar girmek için:
+### Tekrar girmek için:
 ```bash
 screen -r openmind
 ```
