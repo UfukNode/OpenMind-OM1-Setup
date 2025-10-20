@@ -40,9 +40,6 @@ pip install uv
 git submodule update --init
 uv venv
 ```
-```bash
-source .venv/bin/activate
-```
 
 ---
 
