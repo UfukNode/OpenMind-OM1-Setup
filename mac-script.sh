@@ -2,7 +2,7 @@
 
 set -e
 
-echo "🚀 OpenMind OM1 Node kurulumu başlatılıyor..."
+echo "OpenMind OM1 Node kurulumu başlatılıyor..."
 sleep 1
 
 if ! command -v brew &> /dev/null; then
@@ -43,6 +43,6 @@ cat .env | grep OM_API_KEY
 echo "--------------------------------"
 
 echo ""
-echo "✅Node başlatılıyor..."
+echo "✅ Node başlatılıyor..."
 sleep 2
 uv run src/run.py conversation
