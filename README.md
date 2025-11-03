@@ -9,7 +9,7 @@ Bu rehberde, Linux üzerinde OM1 agent kurulumunu adım adım öğrenip kurulum 
 ## 1- Gerekli Paketlerin Kurulumu:
 
 ```bash
-sudo apt update -y && sudo apt upgrade -y && sudo apt install -y portaudio19-dev python3-all-dev ffmpeg alsa-utils && sudo modprobe snd-dummy
+sudo apt update -y && sudo apt upgrade -y && sudo apt install -y portaudio19-dev python3-all-dev ffmpeg alsa-utils python3-pip && sudo pip install uv && sudo modprobe snd-dummy
 ```
 
 ---
